@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-
+  font-family: 'Mulish', sans-serif;
 }
 
 .page {
@@ -13,6 +13,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 55px;
+
 }
 
 ul {
@@ -21,4 +22,55 @@ ul {
   gap: 48px;
   margin: 0;
   padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+ul li a {
+  color: #1f1534;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  font-weight: bold;
+}
+
+h1,
+ul {
+
+  font-family: 'Mulish', sans-serif;
+
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #000;
+  font-weight: normal;
+  width: 490px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+section p {
+  color: #7d7987;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+button {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+
+}
+
+footer a {
+  font-weight: bold;
 }
