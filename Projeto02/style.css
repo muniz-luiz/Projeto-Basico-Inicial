@@ -1,6 +1,9 @@
 body {
   margin: 0px;
+  min-height: 100vh;
   font-family: 'Mulish', sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(22, 121, 9, 1) 35%, rgba(227, 245, 232, 1) 80%);
 }
 
 .page {
@@ -30,6 +33,10 @@ ul li a {
   text-decoration: none;
 }
 
+ul li a {
+  opacity: 1;
+}
+
 ul li a:hover {
   font-weight: bold;
 }
@@ -39,6 +46,12 @@ ul {
 
   font-family: 'Mulish', sans-serif;
 
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 h1 {
@@ -58,19 +71,50 @@ section p {
   color: #7d7987;
   line-height: 28px;
   font-size: 14px;
+  margin: 40px 0;
 }
+
+button:hover {
+  background: #407e66;
+}
+
 
 button {
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+  background-color: #69b99d;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px 15px;
+  color: #ffffff;
+
+  gap: 10px;
+  cursor: pointer;
+
 }
+
+
 
 footer {
   font-size: 14px;
   line-height: 28px;
-
+  text-align: center;
+  margin-top: 82px;
 }
 
 footer a {
   font-weight: bold;
+}
+
+footer img {
+  justify-content: right;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
